@@ -2,4 +2,7 @@ name = "edge-tunnel"
 type = "javascript"
 workers_dev = false
 main = "_worker.js"
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
 compatibility_date = "2025-02-11"
